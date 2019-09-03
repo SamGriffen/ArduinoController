@@ -2986,10 +2986,10 @@ design rules under a new name.</description>
 <element name="R5460" library="CustomParts" package="SOT-23-6" value="R5460" x="-16.5" y="20.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-16.4206" y="20.0762" size="0.762" layer="26" font="vector" ratio="10" rot="MR0" align="center"/>
 </element>
-<element name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="330R" x="-16.25" y="25.75" smashed="yes" rot="MR180">
-<attribute name="SPICEMODEL" value="NONE" x="-16.25" y="25.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-16.25" y="25.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="-13.885" y="26.29" size="1.27" layer="28" rot="MR180"/>
+<element name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="330R" x="-16.25" y="27.25" smashed="yes" rot="MR180">
+<attribute name="SPICEMODEL" value="NONE" x="-16.25" y="27.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-16.25" y="27.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="-13.885" y="27.79" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="1K" x="-21" y="18" smashed="yes" rot="MR270">
 <attribute name="SPICEMODEL" value="NONE" x="-21" y="18" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3227,9 +3227,9 @@ design rules under a new name.</description>
 <wire x1="3.5" y1="12.525" x2="3.5" y2="9.013475" width="1" layer="16"/>
 <wire x1="3.5" y1="9.013475" x2="3.45" y2="9" width="1" layer="16"/>
 <wire x1="3.45" y1="9" x2="3.5" y2="8.95" width="1" layer="16"/>
-<wire x1="3.5" y1="8.95" x2="3.5" y2="1" width="1" layer="16"/>
-<wire x1="13.97" y1="-9.47" x2="13.97" y2="-12.88" width="1" layer="16"/>
-<wire x1="13.97" y1="-9.47" x2="3.5" y2="1" width="1" layer="16"/>
+<wire x1="3.5" y1="8.95" x2="3.5" y2="2" width="1" layer="16"/>
+<wire x1="13.97" y1="-8.47" x2="13.97" y2="-12.88" width="1" layer="16"/>
+<wire x1="13.97" y1="-8.47" x2="3.5" y2="2" width="1" layer="16"/>
 </signal>
 <signal name="TX">
 <contactref element="LLC_TX" pad="3"/>
@@ -3485,7 +3485,7 @@ design rules under a new name.</description>
 <contactref element="R5460" pad="5"/>
 <contactref element="R15" pad="1"/>
 <contactref element="C7" pad="1"/>
-<wire x1="-17.2" y1="25.75" x2="-17.2" y2="23.85" width="0.5" layer="16"/>
+<wire x1="-17.2" y1="27.25" x2="-17.2" y2="23.85" width="1" layer="16"/>
 <wire x1="-17.2" y1="23.85" x2="-17.1" y2="23.75" width="0.5" layer="16"/>
 <wire x1="-16.5" y1="21.85" x2="-16.5" y2="23.15" width="0.5" layer="16"/>
 <wire x1="-16.5" y1="23.15" x2="-17.1" y2="23.75" width="0.5" layer="16"/>
@@ -3572,26 +3572,22 @@ design rules under a new name.</description>
 <contactref element="R15" pad="2"/>
 <contactref element="U$4" pad="B+"/>
 <contactref element="U$6" pad="1"/>
-<wire x1="-15.3" y1="25.75" x2="-13.8741125" y2="25.75" width="1" layer="16"/>
-<wire x1="-13.8741125" y1="25.75" x2="-13.869665625" y2="25.754446875" width="1" layer="16"/>
-<via x="-13.869665625" y="25.754446875" extent="1-16" drill="0.35"/>
 <polygon width="1" layer="16">
-<vertex x="-21" y="45"/>
-<vertex x="-21" y="28"/>
+<vertex x="-21.5" y="45"/>
+<vertex x="-21.5" y="28.5"/>
 <vertex x="-17.334009375" y="24.334009375"/>
-<vertex x="9.665990625" y="24.334009375"/>
-<vertex x="13.3973875" y="20.6026125"/>
-<vertex x="13.3973875" y="-2.3973875"/>
+<vertex x="10.665990625" y="24.334009375"/>
+<vertex x="12.3973875" y="22.6026125"/>
+<vertex x="12.3973875" y="-1.3973875"/>
 <vertex x="26" y="-15"/>
 <vertex x="42" y="-15"/>
 <vertex x="45" y="-12"/>
 <vertex x="45" y="-6"/>
 <vertex x="36" y="3"/>
-<vertex x="36" y="31.5"/>
-<vertex x="35.798965625" y="31.701034375"/>
-<vertex x="-2.701034375" y="31.701034375"/>
-<vertex x="-5.096775" y="34.096775"/>
-<vertex x="-5.096775" y="45"/>
+<vertex x="36" y="31"/>
+<vertex x="-2.5" y="31"/>
+<vertex x="-5.596775" y="34.096775"/>
+<vertex x="-5.596775" y="45"/>
 </polygon>
 </signal>
 <signal name="N$3">
@@ -3659,15 +3655,14 @@ design rules under a new name.</description>
 <vertex x="-23" y="44"/>
 <vertex x="-23" y="28"/>
 <vertex x="-18" y="23"/>
-<vertex x="9" y="23"/>
-<vertex x="12" y="20"/>
-<vertex x="12" y="-3"/>
-<vertex x="25.331978125" y="-16.331978125"/>
-<vertex x="42.668021875" y="-16.331978125"/>
-<vertex x="46.448134375" y="-12.551865625"/>
-<vertex x="46.448134375" y="-5.482903125"/>
-<vertex x="37.52305625" y="3.442175"/>
-<vertex x="37.52305625" y="45.52305625"/>
+<vertex x="9.5" y="23"/>
+<vertex x="9.5" y="-0.928571875"/>
+<vertex x="25.40340625" y="-16.831978125"/>
+<vertex x="42.668021875" y="-16.831978125"/>
+<vertex x="46.948134375" y="-12.551865625"/>
+<vertex x="46.948134375" y="-5.482903125"/>
+<vertex x="38.02305625" y="3.442175"/>
+<vertex x="38.02305625" y="46.02305625"/>
 <vertex x="39" y="47"/>
 <vertex x="77" y="47"/>
 <vertex x="77" y="-50"/>
