@@ -7723,13 +7723,13 @@ BREAKOUT BOARD</text>
 <attribute name="VALUE" x="21.082" y="-54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="91.44" y="-22.86" smashed="yes">
-<attribute name="VALUE" x="89.535" y="-26.035" size="1.778" layer="96"/>
+<attribute name="VALUE" x="89.535" y="-28.575" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="17.78" y="-27.94" smashed="yes">
 <attribute name="VALUE" x="15.875" y="-24.765" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="99.06" y="-22.86" smashed="yes" rot="R180">
-<attribute name="VALUE" x="103.251" y="-26.543" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="97.409" y="-29.337" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="25.4" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="23.495" y="-4.445" size="1.778" layer="96"/>
@@ -7860,8 +7860,8 @@ BREAKOUT BOARD</text>
 <attribute name="VALUE" x="225.044" y="157.861" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C9" gate="G$1" x="200.66" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="197.739" y="143.764" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="202.819" y="143.764" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="204.216" y="144.399" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="201.676" y="146.939" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="NCH_D" gate="G$1" x="195.58" y="132.08" smashed="yes" rot="MR270">
 <attribute name="NAME" x="200.66" y="133.35" size="1.778" layer="95" rot="MR0"/>

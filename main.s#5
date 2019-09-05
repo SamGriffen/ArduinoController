@@ -453,13 +453,13 @@ Datasheet</description>
 <hole x="27.94" y="0" drill="3.6"/>
 <wire x1="-30.734" y1="28.448" x2="-30.734" y2="-28.448" width="0.127" layer="21"/>
 <wire x1="30.734" y1="28.448" x2="30.734" y2="-28.448" width="0.127" layer="21"/>
-<wire x1="-30.735" y1="28.445" x2="30.735" y2="28.445" width="0.127" layer="44"/>
-<wire x1="30.735" y1="-28.45" x2="-30.733" y2="-28.447" width="0.127" layer="44"/>
+<wire x1="-30.735" y1="28.445" x2="30.735" y2="28.445" width="0.127" layer="21"/>
+<wire x1="30.735" y1="-28.45" x2="-30.733" y2="-28.447" width="0.127" layer="21"/>
 <text x="0" y="0" size="4" layer="21" align="center">4 x AA</text>
-<pad name="B+" x="27.5" y="40" drill="1.1" diameter="2"/>
-<pad name="B-" x="25" y="40" drill="1.1" diameter="2"/>
-<text x="27.5" y="43.75" size="3" layer="21" align="center">+</text>
-<text x="25" y="43.75" size="3" layer="21" align="center">-</text>
+<pad name="B+" x="27.5" y="32.38" drill="1.1" diameter="2"/>
+<pad name="B-" x="25" y="32.38" drill="1.1" diameter="2"/>
+<text x="27.5" y="36.13" size="3" layer="21" align="center">+</text>
+<text x="25" y="36.13" size="3" layer="21" align="center">-</text>
 </package>
 </packages>
 <symbols>

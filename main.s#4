@@ -461,6 +461,46 @@ Datasheet</description>
 <text x="27.5" y="36.13" size="3" layer="21" align="center">+</text>
 <text x="25" y="36.13" size="3" layer="21" align="center">-</text>
 </package>
+<package name="EG1201">
+<pad name="1" x="-3" y="0" drill="1.4" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.4" shape="long" rot="R90"/>
+<pad name="3" x="3" y="0" drill="1.4" shape="long" rot="R90"/>
+<wire x1="-6" y1="3" x2="-6" y2="-3" width="0.127" layer="21"/>
+<wire x1="-6" y1="-3" x2="6" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="-3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1.5" x2="-4.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-1.5" x2="-4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.5" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.5" x2="0" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.5" x2="4.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-1.5" x2="4.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.5" x2="0" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-3" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.5" x2="-4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="1.5" x2="-4.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="1.5" x2="-4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-1.5" x2="-3.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.5" x2="-3" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="1.5" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="-2.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.5" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="-0.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.5" x2="-0.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1.5" x2="0" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="1.5" x2="0" y2="-1.5" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RN-XV">
@@ -511,6 +551,14 @@ Datasheet</description>
 <pin name="B+" x="0" y="12.7" length="middle" rot="R270"/>
 <pin name="B-" x="0" y="-15.24" length="middle" rot="R90"/>
 <text x="-10.16" y="0" size="3" layer="94" rot="R90" align="center">4 x AA</text>
+</symbol>
+<symbol name="EG1201">
+<pin name="2" x="0" y="8.636" length="middle" rot="R270"/>
+<pin name="1" x="5.08" y="-6.604" length="middle" rot="R90"/>
+<pin name="3" x="-5.08" y="-6.604" length="middle" rot="R90"/>
+<wire x1="-5.08" y1="-1.524" x2="-2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="3.556" x2="3.048" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -573,6 +621,23 @@ Datasheet</description>
 <connects>
 <connect gate="G$1" pin="B+" pad="B+"/>
 <connect gate="G$1" pin="B-" pad="B-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EG1201">
+<gates>
+<gate name="A" symbol="EG1201" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EG1201">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6647,6 +6712,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="U$3" library="CustomParts" deviceset="4XAA" device=""/>
+<part name="U$4" library="CustomParts" deviceset="EG1201" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6859,10 +6925,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="SUPPLY16" gate="GND" x="121.92" y="101.6" smashed="yes">
 <attribute name="VALUE" x="120.015" y="98.425" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="147.32" y="134.62" smashed="yes" rot="R270">
-<attribute name="VALUE" x="150.495" y="136.525" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY17" gate="G$1" x="172.72" y="149.86" smashed="yes" rot="R270">
+<attribute name="VALUE" x="175.895" y="151.765" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U$3" gate="G$1" x="81.28" y="121.92" smashed="yes"/>
+<instance part="U$4" gate="A" x="99.06" y="134.62" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7407,17 +7474,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="142.24" y1="17.78" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <junction x="142.24" y="27.94"/>
 </segment>
-<segment>
-<pinref part="J_REG_5V_1" gate="J_REG_5V" pin="VOUT"/>
-<wire x1="137.16" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
-</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="B+"/>
-<pinref part="J_REG_5V_1" gate="J_REG_5V" pin="VIN"/>
-<wire x1="81.28" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="A" pin="3"/>
+<wire x1="81.28" y1="134.62" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="139.7" x2="92.456" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
