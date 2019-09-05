@@ -175,7 +175,7 @@
 <text x="-18.5" y="9.5" size="1.778" layer="22" font="vector" rot="MR0">GND</text>
 <text x="-18.5" y="7" size="1.778" layer="22" font="vector" rot="MR0">SCL</text>
 <text x="-18.5" y="4.5" size="1.778" layer="22" font="vector" rot="MR0">SDA</text>
-<text x="23" y="-9" size="1.778" layer="21" font="vector">GitHub: SamGriffen/ArduinoController</text>
+<text x="-59" y="-38.5" size="1.778" layer="21" font="vector">GitHub: SamGriffen/ArduinoController</text>
 </plain>
 <libraries>
 <library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
@@ -2636,12 +2636,12 @@ design rules under a new name.</description>
 <vertex x="-0.5" y="43.00948125"/>
 <vertex x="-0.5" y="34"/>
 <vertex x="8.5" y="25"/>
-<vertex x="26" y="25"/>
-<vertex x="27.5" y="26.5"/>
-<vertex x="27.5" y="30"/>
-<vertex x="26" y="31.5"/>
-<vertex x="9.5" y="31.5"/>
-<vertex x="7" y="34"/>
+<vertex x="25.5" y="25"/>
+<vertex x="26.5" y="26"/>
+<vertex x="26.5" y="30.5"/>
+<vertex x="25.5" y="31.5"/>
+<vertex x="10.5" y="31.5"/>
+<vertex x="7" y="35"/>
 <vertex x="7" y="43"/>
 <vertex x="66.2355875" y="43.514315625"/>
 <vertex x="76.92329375" y="-46.567759375"/>
@@ -2762,11 +2762,9 @@ design rules under a new name.</description>
 <contactref element="RIGHT_B" pad="2"/>
 <wire x1="46.7512" y1="-16.2394" x2="40.2488" y2="-16.2394" width="1" layer="1"/>
 <wire x1="-4.15803125" y1="-33.972996875" x2="-1.90803125" y2="-33.972996875" width="1" layer="1"/>
-<wire x1="40.2488" y1="-16.2394" x2="39.7488" y2="-16.2394" width="1" layer="1"/>
-<wire x1="39.7488" y1="-16.2394" x2="31.9882" y2="-24" width="1" layer="1"/>
-<wire x1="31.9882" y1="-24" x2="29" y2="-24" width="1" layer="1"/>
-<wire x1="29" y1="-24" x2="19.027003125" y2="-33.972996875" width="1" layer="1"/>
-<wire x1="19.027003125" y1="-33.972996875" x2="-1.90803125" y2="-33.972996875" width="1" layer="1"/>
+<wire x1="40.2488" y1="-16.2394" x2="36.7488" y2="-16.2394" width="1" layer="1"/>
+<wire x1="36.7488" y1="-16.2394" x2="19.015203125" y2="-33.972996875" width="1" layer="1"/>
+<wire x1="19.015203125" y1="-33.972996875" x2="-1.90803125" y2="-33.972996875" width="1" layer="1"/>
 </signal>
 <signal name="RIGHT_B">
 <contactref element="R6" pad="1"/>
@@ -2804,10 +2802,10 @@ design rules under a new name.</description>
 <contactref element="RIGHT_SW" pad="CONNA"/>
 <wire x1="-1.44" y1="-7.5" x2="-3.7" y2="-9.76" width="1" layer="1"/>
 <wire x1="13.5" y1="-7.5" x2="36" y2="15" width="1" layer="1"/>
-<wire x1="36" y1="15" x2="36" y2="22.5" width="1" layer="1"/>
-<wire x1="36" y1="22.5" x2="44.7" y2="31.2" width="1" layer="1"/>
+<wire x1="36" y1="15" x2="36" y2="19" width="1" layer="1"/>
+<wire x1="36" y1="19" x2="44.7" y2="27.7" width="1" layer="1"/>
 <wire x1="-1.44" y1="-7.5" x2="13.5" y2="-7.5" width="1" layer="1"/>
-<wire x1="44.7" y1="31.2" x2="44.7" y2="31.5" width="1" layer="1"/>
+<wire x1="44.7" y1="27.7" x2="44.7" y2="31.5" width="1" layer="1"/>
 <contactref element="U$1" pad="5"/>
 <wire x1="-3.7" y1="-15.05" x2="-3.7" y2="-12.88" width="1" layer="1"/>
 <wire x1="-3.7" y1="-12.88" x2="-3.81" y2="-12.88" width="1" layer="1"/>
@@ -2852,19 +2850,21 @@ design rules under a new name.</description>
 <signal name="RIGHT_Y">
 <contactref element="RIGHT_STICK" pad="V2"/>
 <contactref element="U$1" pad="A2"/>
-<wire x1="39.84" y1="11.5" x2="39.84" y2="11.34" width="1" layer="1"/>
-<wire x1="39.84" y1="11.34" x2="15.77" y2="-12.73" width="1" layer="1"/>
-<wire x1="15.77" y1="-12.73" x2="15.77" y2="-13.62" width="1" layer="1"/>
-<wire x1="1.27" y1="-28.12" x2="15.77" y2="-13.62" width="1" layer="1"/>
+<wire x1="39.84" y1="11.5" x2="36.34" y2="8" width="1" layer="1"/>
+<wire x1="36.34" y1="8" x2="36.34" y2="-9.05" width="1" layer="1"/>
+<wire x1="36.34" y1="-9.05" x2="23.77" y2="-21.62" width="1" layer="1"/>
+<wire x1="23.77" y1="-21.62" x2="6.27" y2="-21.62" width="1" layer="1"/>
+<wire x1="6.27" y1="-21.62" x2="1.27" y2="-26.62" width="1" layer="1"/>
+<wire x1="1.27" y1="-26.62" x2="1.27" y2="-28.12" width="1" layer="1"/>
 </signal>
 <signal name="RIGHT_X">
 <contactref element="RIGHT_STICK" pad="H2"/>
 <contactref element="U$1" pad="A3"/>
 <wire x1="50" y1="1.34" x2="50" y2="1" width="1" layer="1"/>
-<wire x1="50" y1="1" x2="43" y2="-6" width="1" layer="1"/>
-<wire x1="43" y1="-6" x2="26.5" y2="-6" width="1" layer="1"/>
-<wire x1="26.5" y1="-6" x2="4.38" y2="-28.12" width="1" layer="1"/>
-<wire x1="3.81" y1="-28.12" x2="4.38" y2="-28.12" width="1" layer="1"/>
+<wire x1="50" y1="1" x2="25" y2="-24" width="1" layer="1"/>
+<wire x1="25" y1="-24" x2="7.5" y2="-24" width="1" layer="1"/>
+<wire x1="7.5" y1="-24" x2="3.81" y2="-27.69" width="1" layer="1"/>
+<wire x1="3.81" y1="-28.12" x2="3.81" y2="-27.69" width="1" layer="1"/>
 </signal>
 <signal name="LEFT_Y">
 <contactref element="LEFT_STICK" pad="V2"/>
@@ -2980,18 +2980,20 @@ design rules under a new name.</description>
 <vertex x="0.5" y="34.5"/>
 <vertex x="9" y="26"/>
 <vertex x="25" y="26"/>
-<vertex x="26.5" y="27.5"/>
-<vertex x="26.5" y="29"/>
+<vertex x="25.5" y="26.5"/>
+<vertex x="25.5" y="30"/>
 <vertex x="25" y="30.5"/>
-<vertex x="9" y="30.5"/>
-<vertex x="6" y="33.5"/>
+<vertex x="10" y="30.5"/>
+<vertex x="6" y="34.5"/>
 <vertex x="6" y="42.5"/>
 </polygon>
+<wire x1="1.3" y1="36.675" x2="1.3" y2="35.3" width="0.6" layer="1"/>
+<wire x1="1.3" y1="35.3" x2="1" y2="35" width="0.6" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED1" pad="A"/>
 <contactref element="R15" pad="1"/>
-<wire x1="19.95" y1="36" x2="21.73" y2="36" width="0" layer="19" extent="16-16"/>
+<wire x1="19.95" y1="36" x2="21.73" y2="36" width="1" layer="16"/>
 </signal>
 <signal name="SDA">
 <contactref element="U$1" pad="2"/>

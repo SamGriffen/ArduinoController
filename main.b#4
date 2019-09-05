@@ -178,7 +178,7 @@
 <text x="-59" y="-38.5" size="1.778" layer="21" font="vector">GitHub: SamGriffen/ArduinoController</text>
 <text x="11" y="-31.5" size="1.016" layer="23" font="vector" ratio="22" rot="R270" align="center">47uF</text>
 <text x="4.5" y="-31.5" size="1.016" layer="23" font="vector" ratio="22" rot="R270" align="center">0.1uF</text>
-<text x="-5" y="-24.5" size="0.6096" layer="23" font="vector" ratio="26" rot="R270">0.1uF</text>
+<text x="-5" y="-23.5" size="1.016" layer="23" font="vector" ratio="22" rot="R270">0.1uF</text>
 <text x="-8.5" y="-1" size="1.016" layer="22" font="vector" ratio="22" rot="MR270" align="center">22uF</text>
 <text x="-6" y="-1" size="1.016" layer="22" font="vector" ratio="22" rot="MR270" align="center">0.1uF</text>
 <text x="5.5" y="-1" size="1.016" layer="22" font="vector" ratio="22" rot="MR270" align="center">10uF</text>
