@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-09-05T11:00:54Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "main"
+        },
+        "Owner": "Samgriffen99 Samgriffen99 <samgriffen99@gmail.com>",
+        "Size": {
+            "X": 146.514053,
+            "Y": 85
+        }
+    }
+}
